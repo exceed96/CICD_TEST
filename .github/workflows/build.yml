@@ -49,7 +49,7 @@ jobs:
 
       # 압축된 파일을 S3에 업로드
       - name: Upload to S3
-        run: aws s3 cp --region us-east-2 ./chagok.zip s3://$S3_BUCKET_NAME/chagok.zip
+        run: aws s3 cp --region us-east-2 ./cicdtest.zip s3://$S3_BUCKET_NAME/cicdtest.zip
 
       # S3에 업로드 된 빌드 파일을 이용해 CodeDeploy가 정의된 동작을 하도록 트리거
       - name: Code Deploy
