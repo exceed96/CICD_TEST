@@ -50,7 +50,7 @@ export default function Home() {
             width={16}
             height={16}
           />
-          성공 ~!
+          성공 ~!~!~!~!
         </a>
       </footer>
     </div>
