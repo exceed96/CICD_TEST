@@ -1,1 +1,1 @@
-echo "> after install"
+pm2 restart "app name"
