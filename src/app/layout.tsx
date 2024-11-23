@@ -31,6 +31,7 @@ export default function RootLayout({
         {children}
       </body>
       <div></div>
+      <div></div>
     </html>
   );
 }
